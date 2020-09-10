@@ -116,7 +116,6 @@ namespace eosio {
             else
                return T{};
          }
-         
          constexpr const auto&& value_or()const&& {
             if (_has_value)
                return _get();
